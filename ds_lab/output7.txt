@@ -1,0 +1,162 @@
+Program 7: Develop a menu driven Program in C for the following operations on 
+                     SinglyLinkedList (SLL) of Student Data with the fields: USN, Name,      
+                     Programme,  Sem, PhNo
+a.	Create a SLL of N Students Data by using front insertion.
+b.	Display the status of SLL and count the number of nodes in it
+c.	Perform Insertion/Deletion at End of SLL
+d.	Perform I nsertion/Deletion at  Front of SLL(Demonstration of stack)
+e.	Exit
+
+
+
+Output:
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+
+Enter your choice
+1
+Enter number of students:
+2
+EnterUSN:100
+EnterName:AMITH
+Enterbranch:CSE
+EnterSemester:3
+Enterphonenumber:6778787
+EnterUSN:101
+EnterName:ANUSHA
+Enterbranch:ISE
+EnterSemester:4
+Enterphonenumber:65467648
+LIST CREATED
+
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+2
+-------------STUDENT DETAILS----------------
+101	ANUSHA	ISE	4	65467648------->100	AMITH	CSE	3	6778787------->
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+
+3
+EnterUSN:102
+EnterName:ANKITHA
+Enterbranch:CIVIL
+EnterSemester:4
+Enterphonenumber:5635633
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+
+2
+-------------STUDENT DETAILS----------------
+101	ANUSHA	ISE	4	65467648------->100	AMITH	CSE	3	6778787------->102	ANKITHA	CIVIL	4	5635633------->
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+
+4
+EnterUSN:104
+EnterName:JILL
+Enterbranch:MECH
+EnterSemester:4
+Enterphonenumber:355667
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+2
+-------------STUDENT DETAILS----------------
+104	JILL	MECH	4	355667------->101	ANUSHA	ISE	4	65467648------->100	AMITH	CSE	3	6778787------->102	ANKITHA	CIVIL	4	5635633------->
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+5
+Student deleted is 102
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+
+6
+Student deleted is 104 
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+
+2
+-------------STUDENT DETAILS----------------
+101	ANUSHA	ISE	4	65467648------->100	AMITH	CSE	3	6778787------->
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+7
+
+
