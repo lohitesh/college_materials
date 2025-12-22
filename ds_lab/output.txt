@@ -45,6 +45,8 @@ Date			 Weekday			 Activity
  16			 Saturday			 Rest
 
  17			 Sunday			   MarathonRun
+
+
  Program2:
  Develop a Program in C for the following operations on Strings.
 a. Read a main String (STR), a Pattern String (PAT) and a Replace   String (REP)
@@ -73,6 +75,7 @@ dfg
 Enter a replace string 
 coup
 Pattern string NOT found**
+
 
 Program3:
 Design, Develop and Implement a menu driven Program in C for the following operations on STACK of Integers (Array Implementation of Stack with maximum size MAX) 
@@ -256,7 +259,9 @@ No is not a plaidrome
  
 Enter your choice
 5
-**
+
+
+
 Program4:
 Develop a Program in C for converting an Infix Expression to Postfix   Expression. Program should support for both parenthesized and free parenthesized expressions with the operators: +,-,*,/,%(Remainder),^(Power)  and alphanumeric operands.
 
@@ -268,6 +273,8 @@ Enter infix expression
 ((a+b)*c^d)
 
 Postfix ab+cd^*
+
+
 Program5:
 Design,Develop and Implement a Program in C for he following Stack Applications:
 a. Evaluation of Suffix expression with single digit operands 
@@ -297,6 +304,9 @@ Enter number of disks
  Move disk 1 from T to S
  Move disk 2 from T to D
  Move disk 1 from S to D
+
+
+
 Program 6. Develop a menu driven Program in C for the following operations on Circular 
                          QUEUE of Characters (Array Implementation of Queue with maximum size MAX)
 a.	Insert an Element onto Circular QUEUE
@@ -658,7 +668,7 @@ c.	Perform Insertion/Deletion at End of SLL
 d.	Perform I nsertion/Deletion at  Front of SLL(Demonstration of stack)
 e.	Exit
 
-
+Filename: prgm7.c
 
 Output:
 
@@ -811,6 +821,7 @@ Enter your choice
 7
 
 
+
 Program 8:Develop a menu driven Program in C for the following operations on 
                      DoublyLinkedList (DLL) of Employee Data with the fields: SSN, Name, 
                      Dept, Designation,Sal ,PhNo
@@ -820,6 +831,8 @@ c. Perform Insertion and Deletion at End of DLL
 d. Perform Insertion and Deletion at Front of DLL
 e. Demonstrate how this DLL can be used as Double Ended Queue.
 f. Exit
+
+Filename: prgm8.c
 
 Output:
 
@@ -996,6 +1009,7 @@ Polynomial 2=     4x3y3z3+ 8xyz
                  ----------------------------------------------------------
                                    9 x3y3z3  +4 x2y z5+7xy4z6+ 8xyz
 
+Filename: poly.c
 
 Output:
 
@@ -1087,6 +1101,9 @@ Enter x, y, z powers: 1
 4x^3y^3z^3+ 8x^1y^1z^1+ 
  Polynomial Adddition Result
  9x^3y^3z^3+ 4x^2y^1z^5+ 8x^1y^1z^1+ 7x^1y^4z^6+
+
+
+
 Program 10:   Develop a menu driven Program in C for the following operations on
                         Binary Search Tree   (BST) of Integers .
 a.	Create a BST ofNIntegers:6,9,5,2,8,15,24,14,7,8,5,2
@@ -1094,6 +1111,8 @@ b.	 Traverse the BST in Inorder, Preorder and PostOrder
 c.	Search the BST for a given element(KEY)and report the appropriate message
 d.	Exit                   
 
+
+Filename: prgm10.c
 
 Output:           
 
@@ -1197,11 +1216,15 @@ Enter node to be searched:
 3
 Search Unsuccessful.
 
+
+
 Program 11:Develop a Program in C for the following operations on Graph(G)of  
            Cities
 a)	Create a Graph of N cities using Adjacency Matrix.
 b)	Print all the nodes reachable from a given starting node in a digraph using DFS/BFS method
 
+
+Filename: prgm11.c
 
 Output:
 
@@ -1221,8 +1244,6 @@ Enter the adjacency matrix of the graph:
 0  0  0  0  0
 
  
-
-
 1.Create Graph
 2.BFS Traversal
 3.DFS Traversal
@@ -1251,7 +1272,12 @@ Enter the source vertex : 0
 4.Exit
 Enter your choice: 4
 
+
+
 Program 12: Given a File of N employee records with a set K of Keys (4-digit) which uniquely determine the records in file F. Assume that file F is maintained in memory by a Hash Table (HT) of m memory locations with L as the set of memory addresses (2-digit) of locations in HT. Let the keys in K and addresses in L are Integers. Develop a Program in C that uses Hashfunction H: K→LasH(K)=K mod m(remaindermethod),and implement hashing Technique to map a given key K to the address space L.Resolve the collision(ifany) using linear probing.
+
+
+Filename: prgm12.c
 
 Output:
 
