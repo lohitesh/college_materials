@@ -1,0 +1,33 @@
+Program 12: Given a File of N employee records with a set K of Keys (4-digit) which uniquely determine the records in file F. Assume that file F is maintained in memory by a Hash Table (HT) of m memory locations with L as the set of memory addresses (2-digit) of locations in HT. Let the keys in K and addresses in L are Integers. Develop a Program in C that uses Hashfunction H: K→LasH(K)=K mod m(remaindermethod),and implement hashing Technique to map a given key K to the address space L.Resolve the collision(ifany) using linear probing.
+
+Output:
+
+Enter the no of employess8
+enter the 4 digit number id of  emplyee1222
+enter the employee nameAmith
+enter the 4 digit number id of  emplyee1343
+enter the employee nameAnusha
+enter the 4 digit number id of  emplyee1333
+enter the employee nameJohn
+enter the 4 digit number id of  emplyee1505
+enter the employee nameJill
+enter the 4 digit number id of  emplyee1808
+enter the employee nameKiran
+enter the 4 digit number id of  emplyee1889
+enter the employee nameAmulya
+enter the 4 digit number id of  emplyee1778
+enter the employee nameFiroz
+enter the 4 digit number id of  emplyee!567
+enter the employee name
+
+HashIndex 	EmpID	             EmpName
+0			1778		Firoz
+1			1778		!567
+2			1222		Amith
+3			1343		Anusha
+4			1333		John
+5			1505		Jill
+6			0		
+7			0		
+8			1808		Kiran
+9			1889		Amulya
