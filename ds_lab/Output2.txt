@@ -1,0 +1,29 @@
+ Program2:
+ Develop a Program in C for the following operations on Strings.
+a. Read a main String (STR), a Pattern String (PAT) and a Replace   String (REP)
+b. Perform Pattern Matching Operation: Find and Replace all occurrences of PAT in STR with REP if PAT exists in STR. Report suitable messages in case PAT does not exist in STR
+
+Support the program with functions for each of the above operations. Don't use Built-in functions.
+
+Filename: prgm2.c
+
+Output:
+****Run1
+Enter a main string 
+apple is an apple
+Enter a pattern string 
+app
+Enter a replace string 
+coup
+The resultant string is
+ couple is an couple
+Run1
+
+Enter a main string 
+apple is an apple
+Enter a pattern string 
+dfg
+Enter a replace string 
+coup
+Pattern string NOT found**
+
