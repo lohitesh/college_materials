@@ -1,0 +1,1286 @@
+Program1: 
+Develop a Program in C for the following:
+a)    Declare a calendar as an array of 7 elements (A dynamically Created array) to represent 7 days of a week. Each Element of the array is a structure having three fields. The first field is the name of the Day (A dynamically allocated String), The second field is the date of the Day (A integer), the third field is the description of the activity for a particular day (A dynamically allocated String).
+b) Write functions create(), read() and display(); to create the calendar, to read the data from the keyboard and to print weeks activity details report on screen
+
+Filename: prgm1.c
+
+Output:
+enter weekdayMonday
+Enter the date 11
+Enter the activityYoga
+enter weekdayTuesday
+Enter the date 12
+Enter the activityYoga
+enter weekdayWednesday
+Enter the date 13
+Enter the activityHIT
+enter weekdayThursday
+Enter the date 14
+Enter the activityStrengthTraining
+enter weekdayFriday
+Enter the date 15
+Enter the activityWeightTraining
+enter weekdaySaturday
+Enter the date 16
+Enter the activityRest
+enter weekdaySunday
+Enter the date 17
+Enter the activityMarathonRun
+Weekly Calendar of Activities
+-------------------------------------------------------------------------------
+Date			 Weekday			 Activity
+--------------------------------------------------------------------------------
+
+ 11			 Monday			   Yoga
+
+ 12			 Tuesday			 Yoga
+
+ 13			 Wednesday		 HIT
+
+ 14			 Thursday			 StrengthTraining
+
+ 15			 Friday			   WeightTraining
+
+ 16			 Saturday			 Rest
+
+ 17			 Sunday			   MarathonRun
+ Program2:
+ Develop a Program in C for the following operations on Strings.
+a. Read a main String (STR), a Pattern String (PAT) and a Replace   String (REP)
+b. Perform Pattern Matching Operation: Find and Replace all occurrences of PAT in STR with REP if PAT exists in STR. Report suitable messages in case PAT does not exist in STR
+
+Support the program with functions for each of the above operations. Don't use Built-in functions.
+
+Filename: prgm2.c
+
+Output:
+****Run1
+Enter a main string 
+apple is an apple
+Enter a pattern string 
+app
+Enter a replace string 
+coup
+The resultant string is
+ couple is an couple
+Run1
+
+Enter a main string 
+apple is an apple
+Enter a pattern string 
+dfg
+Enter a replace string 
+coup
+Pattern string NOT found**
+
+Program3:
+Design, Develop and Implement a menu driven Program in C for the following operations on STACK of Integers (Array Implementation of Stack with maximum size MAX) 
+        a. Push an Element on to Stack 
+        b. Pop an Element from Stack 
+        c. Demonstrate how Stack can be used to check Palindrome 
+        d. Demonstrate Overflow and Underflow situations on Stack 
+        e. Display the status of Stack 
+        f. Exit Support the program with appropriate functions for each of the above operations. 
+
+Filename: prgm3.c
+
+**Output:
+STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice1
+Enter element  to pushed11
+STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice1
+Enter element  to pushed22
+STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice1
+Enter element  to pushed33
+STACK OPERATIONS
+1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+5.EXIT
+ 
+Enter your choice1
+Enter element  to pushed44
+
+
+STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice1
+Enter element  to pushed55
+STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice1
+Stack Ovreflow
+ STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice3
+55
+44
+33
+22
+11
+ STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice
+2
+Element popped 55
+
+
+ STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice2
+Element popped 44
+ STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice2
+Element popped 33
+ STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice2
+Element popped 22
+ STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice2
+Element popped 11
+ STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ Enter your choice2
+Stack  Underflow
+ STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice4
+Enter a number1221
+No is palindrome
+ STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice
+4
+Enter a number1234
+No is not a plaidrome
+ STACK OPERATIONS
+
+ 1. PUSH
+ 2.POP
+ 3.DISPLAY
+ 4.PALINDROME
+ 5.EXIT
+ 
+Enter your choice
+5
+**
+Program4:
+Develop a Program in C for converting an Infix Expression to Postfix   Expression. Program should support for both parenthesized and free parenthesized expressions with the operators: +,-,*,/,%(Remainder),^(Power)  and alphanumeric operands.
+
+Filename: prgm4.c
+
+Output:
+
+Enter infix expression
+((a+b)*c^d)
+
+Postfix ab+cd^*
+Program5:
+Design,Develop and Implement a Program in C for he following Stack Applications:
+a. Evaluation of Suffix expression with single digit operands 
+and operators:+,-,*,/,%,^
+  b.Solving Tower of  Hanoi problem with n disks.
+
+a.EvaluationofSuffixexpressionwithsingledigitoperandsandoperators:+,-,*,/,%,^
+
+Filename: prgm5a.c
+
+Output:
+Enter the postfix Expression: 62+5*
+62+5*
+Given sufffix Expression n: 62+5*
+
+Result after Evaluation:40
+
+Filename: prgm5b.c
+
+Output:
+Enter number of disks
+3
+ Move disk 1 from S to D
+ Move disk 2 from S to T
+ Move disk 1 from D to T
+ Move disk 3 from S to D
+ Move disk 1 from T to S
+ Move disk 2 from T to D
+ Move disk 1 from S to D
+Program 6. Develop a menu driven Program in C for the following operations on Circular 
+                         QUEUE of Characters (Array Implementation of Queue with maximum size MAX)
+a.	Insert an Element onto Circular QUEUE
+b.	Delete an Element from Circular QUEUE
+c.	Demonstrate Overflow and Underflow situations on CircularQUEUE
+d.	Display the status of Circular QUEUE
+e.	Exit
+Support the program with appropriate functions for each of the above operations
+
+Output:
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:1
+ENTER THE QUEUE ELEMENT:A
+Rear=0	Front= 0
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:1
+ENTER THE QUEUE ELEMENT:B
+Rear=1	Front= 0
+
+
+-------QUEUE MENU	
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:1
+ENTER THE QUEUE ELEMENT:C
+Rear=2    Front= 0
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:1
+ENTER THE QUEUE ELEMENT:D
+Rear=3	Front= 0
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:1
+ENTER THE QUEUE ELEMENT:E
+Rear=4	Front= 0
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+1
+ENTER THE QUEUE ELEMENT:F
+CIRCULAR QUEUE FULL
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+3
+
+The Queue Elementsare
+A	    B 	 C	D	E	
+Rear = 4	Front = 0 
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+2
+DELETED ELEMENT FROM QUEUEIS:A
+
+Rear = 4	Front = 1 
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+2
+DELETED ELEMENT FROM QUEUEIS:B
+
+Rear = 4	Front = 2 
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+3
+
+The Queue Elementsare
+-	   - 	 C	D	E	
+Rear = 4	Front = 0 
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+
+1
+ENTER THE QUEUE ELEMENT:F
+Rear=0	Front= 2
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+ENTER YOUR CHOICE:
+3
+
+The Queue Elementsare
+F	-	C	D	E	
+Rear = 0	Front = 2 
+
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+1
+ENTER THE QUEUE ELEMENT:C
+Rear=1	Front= 2
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+1
+ENTER THE QUEUE ELEMENT:G
+
+CIRCULAR QUEUE FULL
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE: 1
+
+
+ENTER THE QUEUE ELEMENT:H
+
+  CIRCULAR QUEUE FULL
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+3
+
+The Queue Elementsare
+F	  G	H	D	E	
+Rear = 1	Front = 2 
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+ENTER YOUR CHOICE:
+2
+DELETED ELEMENT FROM QUEUEIS:D
+
+Rear = 1	Front = 3 
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+2
+DELETED ELEMENT FROM QUEUEIS:E
+
+Rear = 1	Front = 4 
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+2
+DELETED ELEMENT FROM QUEUEIS:F
+
+Rear = 1	Front = 0 
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+2
+
+DELETED ELEMENT FROM QUEUEIS:G
+
+Rear = 1	Front = 1 
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:2
+
+
+
+DELETED ELEMENT FROM QUEUEIS:H
+
+Rear = -1	Front = -1 
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:2
+
+CIRCULAR QUEUE  EMPTY
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+-------QUEUE MENU	
+
+1.INSERT INTO QUEUE
+ 2.DELETE FROM QUEUE
+ 3.DISPLAY QUEUE
+ 4. EXIT
+
+
+ENTER YOUR CHOICE:
+4
+
+
+
+
+Program 7: Develop a menu driven Program in C for the following operations on 
+                     SinglyLinkedList (SLL) of Student Data with the fields: USN, Name,      
+                     Programme,  Sem, PhNo
+a.	Create a SLL of N Students Data by using front insertion.
+b.	Display the status of SLL and count the number of nodes in it
+c.	Perform Insertion/Deletion at End of SLL
+d.	Perform I nsertion/Deletion at  Front of SLL(Demonstration of stack)
+e.	Exit
+
+
+
+Output:
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+
+Enter your choice
+1
+Enter number of students:
+2
+EnterUSN:100
+EnterName:AMITH
+Enterbranch:CSE
+EnterSemester:3
+Enterphonenumber:6778787
+EnterUSN:101
+EnterName:ANUSHA
+Enterbranch:ISE
+EnterSemester:4
+Enterphonenumber:65467648
+LIST CREATED
+
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+2
+-------------STUDENT DETAILS----------------
+101	ANUSHA	ISE	4	65467648------->100	AMITH	CSE	3	6778787------->
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+
+3
+EnterUSN:102
+EnterName:ANKITHA
+Enterbranch:CIVIL
+EnterSemester:4
+Enterphonenumber:5635633
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+
+2
+-------------STUDENT DETAILS----------------
+101	ANUSHA	ISE	4	65467648------->100	AMITH	CSE	3	6778787------->102	ANKITHA	CIVIL	4	5635633------->
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+
+4
+EnterUSN:104
+EnterName:JILL
+Enterbranch:MECH
+EnterSemester:4
+Enterphonenumber:355667
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+2
+-------------STUDENT DETAILS----------------
+104	JILL	MECH	4	355667------->101	ANUSHA	ISE	4	65467648------->100	AMITH	CSE	3	6778787------->102	ANKITHA	CIVIL	4	5635633------->
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+5
+Student deleted is 102
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+
+6
+Student deleted is 104 
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+
+2
+-------------STUDENT DETAILS----------------
+101	ANUSHA	ISE	4	65467648------->100	AMITH	CSE	3	6778787------->
+
+-----SINGLYLINKEDLIST MENU	
+1:CREATE
+2:DISPLAY
+3:INSERT AT END
+4:INSERT AT FRONT
+5:DELETE AT END
+6:DELETE FROM FRONT
+7:EXIT
+Enter your choice
+7
+
+
+Program 8:Develop a menu driven Program in C for the following operations on 
+                     DoublyLinkedList (DLL) of Employee Data with the fields: SSN, Name, 
+                     Dept, Designation,Sal ,PhNo
+a. Create a DLL of N Employees Data by using end insertion.
+b. Display the status of DLL and count the number of nodes in it
+c. Perform Insertion and Deletion at End of DLL
+d. Perform Insertion and Deletion at Front of DLL
+e. Demonstrate how this DLL can be used as Double Ended Queue.
+f. Exit
+
+Output:
+
+-----DOUBLY LINKED LIST MENU	
+1:CREATE DLL
+2:DISPLAY DLL
+DOUBLE ENDED QUEUE DEMOSTRATION 
+3:INSERT AT END OF DLL
+4:DELETE FROM END OF DLL
+5:INSERT AT FRONT OF DLL
+6:DELETE FROM FRONT OF DLL
+7:EXIT
+Enter your choice
+1
+Enter number of Employees:
+ 2
+ Employee 1 details
+Enter SSN: 11
+Enter Name: Amith
+Enter Department: CSE
+Enter Designation: AP
+Enter Salary: 45000
+Enter phone number: 95876353
+Employee 2 details
+Enter SSN: 12
+Enter Name: John
+Enter Department: ISE
+Enter Designation: P
+Enter Salary: 89000
+Enter phone number: 3436447
+-----DOUBLY LINKED LIST MENU	
+1:CREATE DLL
+2:DISPLAY DLL
+DOUBLE ENDED QUEUE DEMOSTRATION 
+3:INSERT AT END OF DLL
+4:DELETE FROM END OF DLL
+5:INSERT AT FRONT OF DLL
+6:DELETE FROM FRONT OF DLL
+7:EXIT
+Enter your choice
+2
+The Employee details are:
+11		Amith		CSE		AP	45000	95876353<=======>
+12		John		ISE		P	89000	3436447<=======>
+
+Total Number of Employee in the DLL List are: 2
+
+-----DOUBLY LINKED LIST MENU	
+1:CREATE DLL
+2:DISPLAY DLL
+DOUBLE ENDED QUEUE DEMOSTRATION 
+3:INSERT AT END OF DLL
+4:DELETE FROM END OF DLL
+5:INSERT AT FRONT OF DLL
+6:DELETE FROM FRONT OF DLL
+7:EXIT
+Enter your choice
+3
+Enter SSN: 13
+Enter Name: Ankitha
+Enter Department: EEE
+Enter Designation: AP
+Enter Salary: 56000
+Enter phone number: 8765433
+-----DOUBLY LINKED LIST MENU	
+1:CREATE DLL
+2:DISPLAY DLL
+DOUBLE ENDED QUEUE DEMOSTRATION 
+3:INSERT AT END OF DLL
+4:DELETE FROM END OF DLL
+5:INSERT AT FRONT OF DLL
+6:DELETE FROM FRONT OF DLL
+7:EXIT
+Enter your choice
+2
+The Employee details are:
+11		Amith		CSE		AP	45000	95876353<=======>
+12		John		ISE		P	89000	3436447<=======>
+13		Ankitha	EEE		AP	56000	8765433<=======>
+
+Total Number of Employee in the DLL List are: 3
+
+-----DOUBLY LINKED LIST MENU	
+1:CREATE DLL
+2:DISPLAY DLL
+DOUBLE ENDED QUEUE DEMOSTRATION 
+3:INSERT AT END OF DLL
+4:DELETE FROM END OF DLL
+5:INSERT AT FRONT OF DLL
+6:DELETE FROM FRONT OF DLL
+7:EXIT
+Enter your choice
+4
+Student deleted is 13
+-----DOUBLY LINKED LIST MENU	
+1:CREATE DLL
+2:DISPLAY DLL
+DOUBLE ENDED QUEUE DEMOSTRATION 
+3:INSERT AT END OF DLL
+4:DELETE FROM END OF DLL
+5:INSERT AT FRONT OF DLL
+6:DELETE FROM FRONT OF DLL
+7:EXIT
+Enter your choice
+5
+Enter SSN: 14
+Enter Name: Rihan
+Enter Department: EEE
+Enter Designation: P
+Enter Salary: 88000
+Enter phone number: 9273535
+-----DOUBLY LINKED LIST MENU	
+1:CREATE DLL
+2:DISPLAY DLL
+DOUBLE ENDED QUEUE DEMOSTRATION 
+3:INSERT AT END OF DLL
+4:DELETE FROM END OF DLL
+5:INSERT AT FRONT OF DLL
+6:DELETE FROM FRONT OF DLL
+7:EXIT
+Enter your choice
+2
+The Employee details are:
+14		Rihan		EEE		P	88000	9273535<=======>
+11		Amith		CSE		AP	45000	95876353<=======>
+12		John		ISE		P	89000	3436447<=======>
+
+Total Number of Employee in the DLL List are: 3
+
+-----DOUBLY LINKED LIST MENU	
+1:CREATE DLL
+2:DISPLAY DLL
+DOUBLE ENDED QUEUE DEMOSTRATION 
+3:INSERT AT END OF DLL
+4:DELETE FROM END OF DLL
+5:INSERT AT FRONT OF DLL
+6:DELETE FROM FRONT OF DLL
+7:EXIT
+Enter your choice
+6
+Deleted Employee SSN is 14 
+
+
+-----DOUBLY LINKED LIST MENU	
+1:CREATE DLL
+2:DISPLAY DLL
+DOUBLE ENDED QUEUE DEMOSTRATION 
+3:INSERT AT END OF DLL
+4:DELETE FROM END OF DLL
+5:INSERT AT FRONT OF DLL
+6:DELETE FROM FRONT OF DLL
+7:EXIT
+Enter your choice
+7
+
+
+
+Program 9: Develop a Program in C for the following operations on Singly Circular 
+                      Linked List(SCLL) with header nodes
+a.	Represent and Evaluate a Polynomial P(x,y,z)=6x2y2z-4yz5+3x3yz+2xy5z-2xyz3
+b.	Find the sum of two polynomials POLY1(x,y,z) and POLY2(x,y,z) and store the result in POLYSUM(x,y,z)
+       Support the program with appropriate functions for each of the above   
+       operations.
+
+
+
+Polynomial (x,y,z)=6x2y2z-4yz5+3x3yz+2xy5z-2xyz3
+If x=y=z=1,
+Result= 5
+
+Polynomial 1=     5x3y3z3+4 x2y z5+7xy4z6
+
+Polynomial 2=     4x3y3z3+ 8xyz
+                 ----------------------------------------------------------
+                                   9 x3y3z3  +4 x2y z5+7xy4z6+ 8xyz
+
+
+Output:
+
+1.Read Polynomial 
+2. Print Polynomial
+3. Polynomial Evaluation
+4. Polynomial Additon 
+5.Exit
+ Enter your choice1
+
+Read a Polynomial
+Enter the no of terms in polynomial 5
+
+Enter coeff: 6
+Enter x, y, z powers: 2
+2
+2
+Enter coeff: -4
+Enter x, y, z powers: 0
+1
+5
+Enter coeff: 3
+Enter x, y, z powers: 3
+1
+1
+Enter coeff: 2
+Enter x, y, z powers: 1
+5
+1
+Enter coeff: -2
+Enter x, y, z powers: 1
+1
+3
+
+1.Read Polynomial 
+2. Print Polynomial
+3. Polynomial Evaluation
+4. Polynomial Additon 
+5.Exit
+ Enter your choice2
+Polynomial is
+6x^2y^2z^2+ -4x^0y^1z^5+ 3x^3y^1z^1+ 2x^1y^5z^1+ -2x^1y^1z^3+ 
+1.Read Polynomial 
+2. Print Polynomial
+3. Polynomial Evaluation
+4. Polynomial Additon 
+5.Exit
+ Enter your choice3
+Enter values of x, y, z1
+1
+1
+Polynomial result is: 5
+
+1.Read Polynomial 
+2. Print Polynomial
+3. Polynomial Evaluation
+4. Polynomial Additon 
+5.EXit
+ Enter your choice4
+
+Enter polynomial 1 
+Enter the no of terms in polynomial 3
+Enter coeff: 5
+Enter x, y, z powers: 3
+3
+3
+Enter coeff: 4
+Enter x, y, z powers: 2
+1
+5
+Enter coeff: 7
+Enter x, y, z powers: 1
+4
+6
+Enter polynomaiial 2
+Enter the no of terms in polynomial 2
+Enter coeff: 4
+Enter x, y, z powers: 3
+3
+3
+Enter coeff: 8
+Enter x, y, z powers: 1
+1
+1
+
+ Polynomial 1
+5x^3y^3z^3+ 4x^2y^1z^5+ 7x^1y^4z^6+ 
+ Polynomial 2
+4x^3y^3z^3+ 8x^1y^1z^1+ 
+ Polynomial Adddition Result
+ 9x^3y^3z^3+ 4x^2y^1z^5+ 8x^1y^1z^1+ 7x^1y^4z^6+
+Program 10:   Develop a menu driven Program in C for the following operations on
+                        Binary Search Tree   (BST) of Integers .
+a.	Create a BST ofNIntegers:6,9,5,2,8,15,24,14,7,8,5,2
+b.	 Traverse the BST in Inorder, Preorder and PostOrder
+c.	Search the BST for a given element(KEY)and report the appropriate message
+d.	Exit                   
+
+
+Output:           
+
+
+---Binary Search Tree Operations---
+1-Create BST 
+2-Inorder Traversal 
+3-Preorder Traversal 
+4-Postorder Traversal 
+5-Search 
+ 6-Exit 
+Enter your choice: 1
+
+
+BST for How Many Nodes? : 12
+
+Enter the Data for Nodes6
+
+Enter the Data for Nodes9
+
+Enter the Data for Nodes5
+
+Enter the Data for Nodes2
+
+Enter the Data for Nodes8
+
+Enter the Data for Nodes15
+
+Enter the Data for Nodes24
+
+Enter the Data for Nodes14
+
+Enter the Data for Nodes7
+
+Enter the Data for Nodes8
+ Duplicate Element Not Allowed !!!
+Enter the Data for Nodes5
+ Duplicate Element Not Allowed !!!
+Enter the Data for Nodes
+2
+ Duplicate Element Not Allowed !!!
+BST created!!
+
+---Binary Search Tree Operations---
+1-Create BST 
+2-Inorder Traversal 
+3-Preorder Traversal 
+4-Postorder Traversal 
+5-Search 
+ 6-Exit 
+Enter your choice: 2
+
+ BST Traversal in INORDER 
+ 2  5  6  7  8  9  14  15  24 
+
+---Binary Search Tree Operations---
+1-Create BST 
+2-Inorder Traversal 
+3-Preorder Traversal 
+4-Postorder Traversal 
+5-Search 
+ 6-Exit 
+Enter your choice: 3
+
+ BST Traversal in PREORDER 
+ 6  5  2  9  8  7  15  14  24 
+---Binary Search Tree Operations---
+1-Create BST 
+2-Inorder Traversal 
+3-Preorder Traversal 
+4-Postorder Traversal 
+5-Search 
+ 6-Exit 
+Enter your choice: 4
+
+ BST Traversal in POSTORDER 
+ 2  5  7  8  14  24  15  9  6 
+---Binary Search Tree Operations---
+1-Create BST 
+2-Inorder Traversal 
+3-Preorder Traversal 
+4-Postorder Traversal 
+5-Search 
+ 6-Exit 
+Enter your choice: 5
+Enter node to be searched:
+Enter your choice: 5
+Enter node to be searched:
+14
+Search Successful. Node found in BST
+
+---Binary Search Tree Operations---
+1-Create BST 
+2-Inorder Traversal 
+3-Preorder Traversal 
+4-Postorder Traversal 
+5-Search 
+ 6-Exit 
+Enter your choice: 5
+Enter node to be searched:
+3
+Search Unsuccessful.
+
+Program 11:Develop a Program in C for the following operations on Graph(G)of  
+           Cities
+a)	Create a Graph of N cities using Adjacency Matrix.
+b)	Print all the nodes reachable from a given starting node in a digraph using DFS/BFS method
+
+
+Output:
+
+1.Create Graph
+2.BFS Traversal
+3.DFS Traversal
+4.Exit
+Enter your choice: 1
+
+Enter the number of vertices of the graph: 5
+
+Enter the adjacency matrix of the graph:
+0  1  1  1  0
+0  0  0  1  1
+0  0  0  1  0      
+0  0  0  0  1
+0  0  0  0  0
+
+ 
+
+
+1.Create Graph
+2.BFS Traversal
+3.DFS Traversal
+4.Exit
+Enter your choice: 2
+
+Enter the source vertex : 0
+
+ Nodes that are reachable from  source node 0
+
+The reachable vertices are: 1	2	3	4	
+
+1.Create Graph
+2.BFS Traversal
+3.DFS Traversal
+4.Exit
+Enter your choice: 3
+
+Enter the source vertex : 0
+
+ Nodes that are reachable from  source node 0
+1	3      4	  2
+1.Create Graph
+2.BFS Traversal
+3.DFS Traversal
+4.Exit
+Enter your choice: 4
+
+Program 12: Given a File of N employee records with a set K of Keys (4-digit) which uniquely determine the records in file F. Assume that file F is maintained in memory by a Hash Table (HT) of m memory locations with L as the set of memory addresses (2-digit) of locations in HT. Let the keys in K and addresses in L are Integers. Develop a Program in C that uses Hashfunction H: K→LasH(K)=K mod m(remaindermethod),and implement hashing Technique to map a given key K to the address space L.Resolve the collision(ifany) using linear probing.
+
+Output:
+
+Enter the no of employess8
+enter the 4 digit number id of  emplyee1222
+enter the employee nameAmith
+enter the 4 digit number id of  emplyee1343
+enter the employee nameAnusha
+enter the 4 digit number id of  emplyee1333
+enter the employee nameJohn
+enter the 4 digit number id of  emplyee1505
+enter the employee nameJill
+enter the 4 digit number id of  emplyee1808
+enter the employee nameKiran
+enter the 4 digit number id of  emplyee1889
+enter the employee nameAmulya
+enter the 4 digit number id of  emplyee1778
+enter the employee nameFiroz
+enter the 4 digit number id of  emplyee!567
+enter the employee name
+
+HashIndex 	EmpID	             EmpName
+0			1778		Firoz
+1			1778		!567
+2			1222		Amith
+3			1343		Anusha
+4			1333		John
+5			1505		Jill
+6			0		
+7			0		
+8			1808		Kiran
+9			1889		Amulya
