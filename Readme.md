@@ -1,6 +1,6 @@
 
 # DS lab Index Table C Sec - Monday Batch (C1 Batch)
-
+#DS LAB
 | SI.NO |     Program No      |     Date       |
 |-------|---------------------|----------------|
 |   1   |     Program 1       |   22/09/2025   |
